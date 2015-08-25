@@ -1,0 +1,23 @@
+{
+    "name": "nikk2580/wordsmith",
+    "description": "the bower and composer comliant wordpress theme framework",
+    "license": "GPL v2",
+    "authors": [
+        {
+            "name": "nik kyriakidis",
+            "email": "nik.k2580@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "knplabs/knp-snappy": "^0.5.0@dev",
+        "facebook/php-sdk-v4" : "~5.0",
+        "google/apiclient": "1.0.*@beta"
+    },
+    "config": {
+        "vendor-dir": "library/composer"
+    },
+    "autoload": {
+      "psr-4": {"app\\": ""}
+    }
+}
