@@ -1,15 +1,17 @@
 <?php
-namespace wordsmith\app\actions;
+namespace app\actions;
+
+use \wordsmith\actions\action as action;
 
 class actionTest extends action{
 	
-	public $hook = "admin_footer";
+	public $hook = "admin_enqueue_scripts";
 	public $callback = "printTest";
 	public $priority ;
 	public $accepted_args;
 	
 	function printTest(){
-		echo "Hello World";
+		
 	}
 	
 }

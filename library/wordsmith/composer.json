@@ -1,0 +1,15 @@
+{
+    "name": "nikk2580/wordsmith",
+    "type": "library",
+    "description": "the bower and composer comliant wordpress theme framework library",
+    "license": "GPL v2",
+    "authors": [
+        {
+            "name": "nik kyriakidis",
+            "email": "nik.k2580@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    }
+}

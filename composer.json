@@ -1,6 +1,6 @@
 {
-    "name": "nikk2580/wordsmith",
-    "description": "the bower and composer comliant wordpress theme framework",
+    "name": "nikk2580/wordsmith-theme",
+    "description": "the bower and composer comliant wordpress theme boilerplate",
     "license": "GPL v2",
     "authors": [
         {

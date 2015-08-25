@@ -1,4 +1,5 @@
 <?php
+
 /*
  * WORDSMITH META BOX CLASS
  * 
@@ -6,19 +7,24 @@
  * 
  */
 
-namespace wordsmith\app\metaBoxes;
+namespace wordsmith\metaBoxes;
 
 class metaBox {
 
-	private $post_type;
-	private $title;
-	private $context;
-	private $priority;
+	protected $name;
+	protected $post_type;
+	protected $title;
+	protected $context = 'side';
+	protected $priority = 'default';
 
 	/**
 	 * Hook into the appropriate actions when the class is constructed.
 	 */
 	public function __construct() {
+		$this->init();
+	}
+
+	public function init() {
 		add_action( 'add_meta_boxes', array( $this, 'add_boxes' ) );
 		add_action( 'save_post', array( $this, 'save' ) );
 	}
@@ -27,17 +33,9 @@ class metaBox {
 	 * Adds the meta box container.
 	 */
 	public function add_boxes() {
-		if ( is_array( $this->post_type ) ) {
-			foreach ( $this->post_type as $screen ) {
-				add_box( $this->title, $screen, $this->context, $this->priority );
-			}
-		} else {
-			add_box( $this->title, $this->post_type, $this->context, $this->priority );
+		foreach ( $this->post_type as $screen ) {
+			add_meta_box( $this->name, $this->title, array( $this, 'content' ), $screen, $this->context, $this->priority );
 		}
-	}
-
-	private function add_box( $title, $screen, $context, $priority ) {
-		add_meta_box( __CLASS__, $title, array( $this, 'content' ), $screen, $context, $priority );
 	}
 
 	/**
