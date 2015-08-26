@@ -12,10 +12,11 @@
 require_once 'library/bootstrapper.php';
 
 /*
- * app inlcusion
+ * wordsmith inlcusion
  */
-require_once 'app/bootstrapper.php';
+require_once 'wordsmith/bootstrapper.php';
 
 /*
  * scripts inlcusion
  */
+require_once 'scripts.php';
