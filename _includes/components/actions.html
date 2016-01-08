@@ -1,0 +1,55 @@
+<article id="Actions">
+    <div class="row">
+        <div class="col-md-7">
+            <div class="panel panel-default">
+                <table class="table table-striped">
+                    <thead>
+                        <tr class="info">
+                            <th colspan="2" class="text-center"><strong>Attributes</strong></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>hook</td>
+                            <td>WordPress Action hook where this code will exectue</td>
+                        </tr>
+                        <tr>
+                            <td>callback</td>
+                            <td>the internal method you create for this action</td>
+                        </tr>
+                        <tr>
+                            <td>priority</td>
+                            <td>the priority of this action at the nominated hook</td>
+                        </tr>
+                        <tr>
+                            <td>args</td>
+                            <td>number of arguments the callback accepts</td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr class="success">
+                            <th colspan="2" class="text-center "><strong>Methods</strong></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>__construct</td>
+                            <td><strong class="text-danger">DO NOT OVERRIDE</strong><br/>this method gathers the variables for the callAction method</td>
+                        </tr>
+                        <tr>
+                            <td>callAction</td>
+                            <td><strong class="text-danger">DO NOT OVERRIDE</strong><br/>this method add the action into WordPress</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col-md-5">
+            <p>
+                Actions in wordSmith are Quite Simmilar to those in vanilla WordPress, the only difference is that they appear in class form
+            <br/><br/>
+            When adding a new action in create a new file and place it somewhere in your theme or plugin.next ensure the class extends the supplied wordsmith class. from there you supply your class argumets mich like your moethod arguments orginally and then write your action method.<br/><br/>it's important to remeber to instantiate the newly created class, otherwise the object will not be loaded and the code wont run.
+            </p>
+        </div>
+    </div>
+</article>
