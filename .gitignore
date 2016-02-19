@@ -1,0 +1,11 @@
+node_modules
+bower_components
+/include
+/bin
+/lib
+/vendor
+/public
+/.tmp
+.DS_STORE
+.jekyll-metadata
+npm-debug.log

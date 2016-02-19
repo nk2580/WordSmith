@@ -1,0 +1,44 @@
+source: app
+destination: public
+
+highlighter: pygments
+
+prose:
+    rooturl: 'app'
+    media: 'app/assets/images'
+    ignore:
+        -   index.html
+        -   404.html
+        -   500.html
+        -   _data
+        -   _includes
+        -   _layouts
+        -   apple-touch-icon-114x114.png
+        -   apple-touch-icon-57x57.png
+        -   apple-touch-icon-72x72.png
+        -   apple-touch-icon.png
+        -   favicon.ico
+        -   favicon.png
+        -   og-image.png
+        -   robots.txt
+        -   /app/assets/css
+        -   /app/assets/js
+        -   /app/assets/fonts
+        -   /app/assets/vendor
+        -   /app/assets/videos
+    metadata:
+        app/_posts: &metadata
+            -   name: 'title'
+                field:
+                    element: 'text'
+                    label: 'Title'
+                    placeholder: 'Change the post title here'
+                    type: text
+
+            -   name: 'published'
+                field:
+                    element: 'checkbox'
+                    label: 'Published'
+                    value: true
+
+        app/_drafts: *metadata

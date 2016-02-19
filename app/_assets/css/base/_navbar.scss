@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23/11/2015, 3:10:19 PM
+    Author     : accounts
+*/
+.navbar-naked{
+    background:none;
+    color:#fff;
+    a{
+        background:none;
+        color:#fff;
+    }
+    li a:hover,
+        li a:active,
+        li a:focus{
+        background:none;
+        color:#fff;
+        text-decoration: underline;
+    }
+    .navbar-brand {
+        padding:0px;
+        img{
+            height:50px !important;
+        }
+    }
+    .navbar-toggle{
+        border: 1px solid #fff;
+        .icon-bar{
+            background-color: #fff;
+        }
+    }
+}
+.navbar{
+    margin-bottom:0px;
+    .navbar-brand {
+        padding:0px;
+        img{
+            height:50px !important;
+        }
+    }
+}
+
