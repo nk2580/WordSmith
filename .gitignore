@@ -1,11 +1,4 @@
-node_modules
-bower_components
-/include
-/bin
-/lib
-/vendor
-/public
-/.tmp
-.DS_STORE
+_site
+.sass-cache
 .jekyll-metadata
-npm-debug.log
+/nbproject/private/

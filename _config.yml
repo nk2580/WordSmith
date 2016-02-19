@@ -1,44 +1,21 @@
-source: app
-destination: public
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-highlighter: pygments
+# Site settings
+title: Your awesome title
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
 
-prose:
-    rooturl: 'app'
-    media: 'app/assets/images'
-    ignore:
-        -   index.html
-        -   404.html
-        -   500.html
-        -   _data
-        -   _includes
-        -   _layouts
-        -   apple-touch-icon-114x114.png
-        -   apple-touch-icon-57x57.png
-        -   apple-touch-icon-72x72.png
-        -   apple-touch-icon.png
-        -   favicon.ico
-        -   favicon.png
-        -   og-image.png
-        -   robots.txt
-        -   /app/assets/css
-        -   /app/assets/js
-        -   /app/assets/fonts
-        -   /app/assets/vendor
-        -   /app/assets/videos
-    metadata:
-        app/_posts: &metadata
-            -   name: 'title'
-                field:
-                    element: 'text'
-                    label: 'Title'
-                    placeholder: 'Change the post title here'
-                    type: text
-
-            -   name: 'published'
-                field:
-                    element: 'checkbox'
-                    label: 'Published'
-                    value: true
-
-        app/_drafts: *metadata
+# Build settings
+markdown: kramdown

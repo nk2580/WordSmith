@@ -5,12 +5,5 @@
         <data xmlns="http://www.netbeans.org/ns/clientside-project/1">
             <name>WordSmith Docs</name>
         </data>
-        <spellchecker-wordlist xmlns="http://www.netbeans.org/ns/spellchecker-wordlist/1">
-            <word>Docs</word>
-            <word>plugin</word>
-            <word>Plugins</word>
-            <word>WordPress</word>
-            <word>WordSmith</word>
-        </spellchecker-wordlist>
     </configuration>
 </project>
