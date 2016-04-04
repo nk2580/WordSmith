@@ -1,11 +1,38 @@
-<section class="jumbotron footer">
-    <div class="container">
-        <footer>
-            <p>This Project is 100% Open Source and can be used by anyone in any way they see fit.
-<br/>
-This Product comes with no Warranty or Guarantee in any way shape or form<br/><br/>
-                © WordSmith 2015</p>
-        </footer>
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">{{ site.title }}</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>{{ site.title }}</li>
+          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          {% if site.github_username %}
+          <li>
+            {% include icon-github.html username=site.github_username %}
+          </li>
+          {% endif %}
+
+          {% if site.twitter_username %}
+          <li>
+            {% include icon-twitter.html username=site.twitter_username %}
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>{{ site.description }}</p>
+      </div>
     </div>
-</section>
-{% include scripts.html %}
+
+  </div>
+
+</footer>
