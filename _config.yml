@@ -17,3 +17,7 @@ url: "http://nk2580.github.io" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 repository: "https://github.com/nk2580/WordSmith"
+exclude:
+  - package.json
+  - node_modules
+  - gulpfile.js

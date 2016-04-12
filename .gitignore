@@ -3,3 +3,5 @@ _site
 .jekyll-metadata
 /documentation/nbproject/private/
 /nbproject/private/
+/WordSmith Docs/nbproject/private/
+/node_modules
