@@ -5,5 +5,10 @@
         <data xmlns="http://www.netbeans.org/ns/clientside-project/1">
             <name>WordSmith Documentation</name>
         </data>
+        <spellchecker-wordlist xmlns="http://www.netbeans.org/ns/spellchecker-wordlist/1">
+            <word>GitHub</word>
+            <word>plugin</word>
+            <word>WordSmith</word>
+        </spellchecker-wordlist>
     </configuration>
 </project>
