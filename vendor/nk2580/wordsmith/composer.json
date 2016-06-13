@@ -1,0 +1,23 @@
+{
+    "name": "nk2580/wordsmith",
+    "type": "library",
+    "description": "The Modern PHP WordPress theme library",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "nik kyriakidis",
+            "email": "nik.k2580@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.4",
+        "philo/laravel-blade": "~3",
+        "illuminate/encryption": "~5.0",
+        "knplabs/knp-snappy": "~0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "nk2580\\wordsmith\\": "src/"
+        }
+    }
+}
