@@ -19,22 +19,12 @@ class ComposerStaticInit76c3d96b52868bbce7ce848062ff0d53
         'S' => 
         array (
             'Symfony\\Component\\Process\\' => 26,
-            'Symfony\\Component\\Finder\\' => 25,
-            'Symfony\\Component\\Debug\\' => 24,
-        ),
-        'P' => 
-        array (
-            'Philo\\Blade\\' => 12,
         ),
         'I' => 
         array (
-            'Illuminate\\View\\' => 16,
             'Illuminate\\Support\\' => 19,
-            'Illuminate\\Filesystem\\' => 22,
-            'Illuminate\\Events\\' => 18,
             'Illuminate\\Encryption\\' => 22,
             'Illuminate\\Contracts\\' => 21,
-            'Illuminate\\Container\\' => 21,
         ),
     );
 
@@ -47,33 +37,9 @@ class ComposerStaticInit76c3d96b52868bbce7ce848062ff0d53
         array (
             0 => __DIR__ . '/..' . '/symfony/process',
         ),
-        'Symfony\\Component\\Finder\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/finder',
-        ),
-        'Symfony\\Component\\Debug\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/debug',
-        ),
-        'Philo\\Blade\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/philo/laravel-blade/src',
-        ),
-        'Illuminate\\View\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/illuminate/view',
-        ),
         'Illuminate\\Support\\' => 
         array (
             0 => __DIR__ . '/..' . '/illuminate/support',
-        ),
-        'Illuminate\\Filesystem\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/illuminate/filesystem',
-        ),
-        'Illuminate\\Events\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/illuminate/events',
         ),
         'Illuminate\\Encryption\\' => 
         array (
@@ -83,20 +49,9 @@ class ComposerStaticInit76c3d96b52868bbce7ce848062ff0d53
         array (
             0 => __DIR__ . '/..' . '/illuminate/contracts',
         ),
-        'Illuminate\\Container\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/illuminate/container',
-        ),
     );
 
     public static $prefixesPsr0 = array (
-        'P' => 
-        array (
-            'Psr\\Log\\' => 
-            array (
-                0 => __DIR__ . '/..' . '/psr/log',
-            ),
-        ),
         'K' => 
         array (
             'Knp\\Snappy' => 

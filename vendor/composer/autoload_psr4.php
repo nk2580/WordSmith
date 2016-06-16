@@ -8,14 +8,7 @@ $baseDir = dirname($vendorDir);
 return array(
     'nk2580\\wordsmith\\' => array($vendorDir . '/nk2580/wordsmith/src'),
     'Symfony\\Component\\Process\\' => array($vendorDir . '/symfony/process'),
-    'Symfony\\Component\\Finder\\' => array($vendorDir . '/symfony/finder'),
-    'Symfony\\Component\\Debug\\' => array($vendorDir . '/symfony/debug'),
-    'Philo\\Blade\\' => array($vendorDir . '/philo/laravel-blade/src'),
-    'Illuminate\\View\\' => array($vendorDir . '/illuminate/view'),
     'Illuminate\\Support\\' => array($vendorDir . '/illuminate/support'),
-    'Illuminate\\Filesystem\\' => array($vendorDir . '/illuminate/filesystem'),
-    'Illuminate\\Events\\' => array($vendorDir . '/illuminate/events'),
     'Illuminate\\Encryption\\' => array($vendorDir . '/illuminate/encryption'),
     'Illuminate\\Contracts\\' => array($vendorDir . '/illuminate/contracts'),
-    'Illuminate\\Container\\' => array($vendorDir . '/illuminate/container'),
 );

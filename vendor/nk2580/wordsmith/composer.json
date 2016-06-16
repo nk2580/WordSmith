@@ -11,8 +11,7 @@
     ],
     "require": {
         "php": ">=5.5.4",
-        "philo/laravel-blade": "~3",
-        "illuminate/encryption": "~5.0",
+        "illuminate/encryption": "^5.0",
         "knplabs/knp-snappy": "~0.2"
     },
     "autoload": {
