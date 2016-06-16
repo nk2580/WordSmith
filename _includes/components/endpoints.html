@@ -1,2 +1,59 @@
----
----
+<article id="endpoints">
+    <div class="row">
+        <div class="col-md-7">
+            <div class="panel panel-default">
+                <table class="table table-striped">
+                    <thead>
+                        <tr class="info">
+                            <th colspan="2" class="text-center"><strong>Attributes</strong></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>vars</td>
+                            <td>query vars to be added and evaluated against</td>
+                        </tr>
+                        <tr>
+                            <td>endpoints</td>
+                            <td>the endpoint strings to be added to your rewrite rules</td>
+                        </tr>
+                        <tr>
+                            <td>callback</td>
+                            <td>The callback method name to be run at the endpoint</td>
+                        </tr>
+                        <tr>
+                            <td>position</td>
+                            <td>The position to add your rewrite rules</td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr class="success">
+                            <th colspan="2" class="text-center "><strong>Methods</strong></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>__construct</td>
+                            <td><strong class="text-danger">DO NOT OVERRIDE</strong><br/>Add filters to inject rewrite rules into WP</td>
+                        </tr>
+                        <tr>
+                            <td>add_query_vars</td>
+                            <td><strong class="text-danger">DO NOT OVERRIDE</strong><br/>adds query vars to wp</td>
+                        </tr>
+                        <tr>
+                            <td>add_query_vars</td>
+                            <td><strong class="text-danger">DO NOT OVERRIDE</strong><br/>adds query vars to wp</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col-md-5">
+            <p>
+                Actions in wordSmith are Quite Simmilar to those in vanilla WordPress, the only difference is that they appear in class form
+            <br/><br/>
+            When adding a new action in create a new file and place it somewhere in your theme or plugin.next ensure the class extends the supplied wordsmith class. from there you supply your class argumets mich like your moethod arguments orginally and then write your action method.<br/><br/>it's important to remeber to instantiate the newly created class, otherwise the object will not be loaded and the code wont run.
+            </p>
+        </div>
+    </div>
+</article>
