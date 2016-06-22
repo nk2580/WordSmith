@@ -4,7 +4,7 @@
   Plugin Name:  WordSmith Framework
   Plugin URI:   http://nk2580.github.io/WordSmith/
   Description:  Powerful Apps With Minimal Effort.
-  Version:      0.1.1.4
+  Version:      1.0.1
   Author:       Nik kyriakidis
  */
 
