@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3e2b0dfecb9b0607997bc1e2d1985046",
-    "content-hash": "eb5ed0a7dbd42612c7aa8a75b95dfa71",
+    "hash": "8cd96b54e18a970f6aff72f1914fd14c",
+    "content-hash": "d2068cef13f9ce91ad4c09c541be491f",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -286,16 +286,16 @@
         },
         {
             "name": "nk2580/wordsmith",
-            "version": "1.3.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nk2580/WordSmith-Framework.git",
-                "reference": "1eb2947025f8b389f2897c777f1508b616403b12"
+                "reference": "5d0d0947abec93d355c56f80832de1bf308560b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nk2580/WordSmith-Framework/zipball/1eb2947025f8b389f2897c777f1508b616403b12",
-                "reference": "1eb2947025f8b389f2897c777f1508b616403b12",
+                "url": "https://api.github.com/repos/nk2580/WordSmith-Framework/zipball/5d0d0947abec93d355c56f80832de1bf308560b7",
+                "reference": "5d0d0947abec93d355c56f80832de1bf308560b7",
                 "shasum": ""
             },
             "require": {
@@ -320,7 +320,7 @@
                 }
             ],
             "description": "The Modern PHP WordPress theme library",
-            "time": "2016-06-16 04:31:17"
+            "time": "2016-06-19 23:19:59"
         },
         {
             "name": "paragonie/random_compat",
@@ -423,7 +423,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "nk2580/wordsmith": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

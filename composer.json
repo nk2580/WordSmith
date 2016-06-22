@@ -10,6 +10,6 @@
         }
     ],
     "require": {
-        "nk2580/wordsmith": "^1.3.0"
+        "nk2580/wordsmith": "dev-master"
     }
 }
